@@ -5,7 +5,7 @@ import os.path
 import argparse
 
 
-menu = argparse.ArgumentParser(description="lz4 decompress python3 | author=0xrdf")
+menu = argparse.ArgumentParser(description="lz4 decompress python3 | author=nopsh3ll")
 menu.add_argument('-s', '--single', help="single DLL", default="")
 menu.add_argument('-d', '--dir', help='directory with all DLLs', default="")
 args = menu.parse_args()
